@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Signin</title>
+    <link rel="stylesheet" href="sign.css" />
+  </head>
+
+  <body>
+    <div class="login-container">
+      <form method="POST" action="/login" class="form-login">
+        <ul class="login-nav">
+          <li class="login-nav__item active">
+            <a href="#">Sign In</a>
+          </li>
+          <li class="login-nav__item">
+            <a href="/register">Sign Up</a>
+          </li>
+        </ul>
+        <label for="login-input-user" class="login__label">
+          Enter ID
+        </label>
+        <input
+          id="login-input-user"
+          class="login__input"
+          type="text"
+          name="_id"
+        />
+        <label for="login-input-password" class="login__label">
+          Password
+        </label>
+        <input
+          id="login-input-password"
+          class="login__input"
+          type="password"
+          name="password"
+        />
+
+        <button class="login__submit" type="submit">Sign in</button>
+      </form>
+    </div>
+  </body>
+</html>

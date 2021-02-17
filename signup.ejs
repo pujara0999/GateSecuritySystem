@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Signin</title>
+    <link rel="stylesheet" href="sign.css" />
+</head>
+
+<body style="margin-bottom: 5rem;">
+    <div class="login-container">
+        <form method="POST" action="/register" class="form-login">
+            <ul class="login-nav">
+                <li class="login-nav__item">
+                    <a href="/login">Sign In</a>
+                </li>
+                <li class="login-nav__item active">
+                    <a href="/register">Sign Up</a>
+                </li>
+            </ul>
+
+            <label for="login-input-user" class="login__label">
+                Name
+            </label>
+            <input id="login-input-user" class="login__input" type="text" name="name" />
+
+            <label for="login-input-user" class="login__label">
+                Sex
+            </label>
+            <input id="login-input-user" class="login__input" type="text" name="sex" />
+
+            <label for="login-input-user" class="login__label">
+                Age
+            </label>
+            <input id="login-input-user" class="login__input" type="number" name="age" />
+
+            <label for="login-input-user" class="login__label">
+                BloodGroup
+            </label>
+            <input id="login-input-user" class="login__input" type="text" name="blood_group" />
+
+            <label for="login-input-password" class="login__label">
+                DateOfBirth
+            </label>
+            <input id="login-input-password" class="login__input" type="text" name="dob" />
+
+            <label for="login-input-password" class="login__label">
+                Contact
+            </label>
+            <input id="login-input-password" class="login__input" type="number" name="emergency" />
+
+            <label for="login-input-password" class="login__label">
+                Email
+            </label>
+            <input id="login-input-password" class="login__input" type="email" name="email" />
+
+
+            <label for="login-input-password" class="login__label">
+                SetPassword
+            </label>
+            <input id="login-input-password" class="login__input" type="password" name="password" />
+
+
+
+            <button class="login__submit" type="submit">Sign in</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
